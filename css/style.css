@@ -894,6 +894,7 @@ ul, ol {
   line-height: 32px;
 }
 .services__block .bottom {
+  height: calc(100% - 120px);
   padding: 30px 30px 84px 30px;
   position: relative;
   z-index: 2;
@@ -939,23 +940,23 @@ ul, ol {
 }
 
 .services__block.block1 .top, .services__block.block1 .top .box, .services__block.block1 .to_order:hover {
-  background: #1966AC;
-}
-
-.services__block.block2 .top, .services__block.block2 .top .box, .services__block.block2 .to_order:hover {
   background: #6EBE49;
 }
 
-.services__block.block3 .top, .services__block.block3 .top .box, .services__block.block3 .to_order:hover {
-  background: #ED8722;
+.services__block.block2 .top, .services__block.block2 .top .box, .services__block.block2 .to_order:hover {
+  background: #1966AC;
 }
 
-.services__block.block4 .top, .services__block.block4 .top .box, .services__block.block4 .to_order:hover {
+.services__block.block3 .top, .services__block.block3 .top .box, .services__block.block3 .to_order:hover {
   background: #22C8ED;
 }
 
-.services__block.block5 .top, .services__block.block5 .top .box, .services__block.block5 .to_order:hover {
+.services__block.block4 .top, .services__block.block4 .top .box, .services__block.block4 .to_order:hover {
   background: #8722ED;
+}
+
+.services__block.block5 .top, .services__block.block5 .top .box, .services__block.block5 .to_order:hover {
+  background: #ED8722;
 }
 
 .weWork {
@@ -1916,6 +1917,7 @@ ul, ol {
     line-height: 30px;
   }
   .services__block .bottom {
+    height: calc(100% - 80px);
     padding: 20px 15px 75px 15px;
   }
   .services__block .h5 {
