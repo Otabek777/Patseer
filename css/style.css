@@ -121,9 +121,22 @@ ul, ol {
           align-items: center;
   color: #1966AC;
   margin-right: 40px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .header__email svg {
   margin-right: 10px;
+}
+.header__email svg path {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.header__email:hover {
+  color: #1966AC;
+}
+.header__email:hover svg path {
+  fill: #1966AC;
 }
 
 .header__phone {
@@ -137,9 +150,20 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   color: #546371;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .header__phone svg {
   margin-right: 10px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.header__phone:hover {
+  color: #1966AC;
+}
+.header__phone:hover svg path {
+  fill: #1966AC;
 }
 
 .header__right {
@@ -154,6 +178,11 @@ ul, ol {
   line-height: 17px;
   margin-left: 40px;
   color: #546371;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.header__right .item:hover {
+  color: #1966AC;
 }
 .header__right .item:nth-child(1) {
   margin-left: 0;
@@ -221,6 +250,11 @@ ul, ol {
   font-size: 15px;
   line-height: 19px;
   color: #292F35;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.header__navbar a:hover {
+  color: #1966AC;
 }
 
 .banner {
@@ -320,10 +354,16 @@ ul, ol {
   border-radius: 10px;
   padding: 9px 30px;
   border: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .banner__btn span {
   font-weight: 400;
   display: block;
+}
+
+.banner__btn:hover {
+  background: #4abe14;
 }
 
 .title_h2 {
@@ -531,9 +571,14 @@ ul, ol {
           box-shadow: 10px 15px 40px rgba(47, 67, 86, 0.2);
   border-radius: 10px;
   border: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .company__left .btn svg {
   margin-right: 10px;
+}
+.company__left .btn:hover {
+  background: #4abe14;
 }
 
 .company__right {
@@ -1224,6 +1269,11 @@ ul, ol {
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.questions__block .btn:hover {
+  background: #4abe14;
 }
 
 .questions__right {
@@ -1329,6 +1379,10 @@ ul, ol {
   line-height: 17px;
   color: #546371;
 }
+.footer__navbar a:hover {
+  color: #1966AC;
+  text-decoration: underline;
+}
 
 .footer__email {
   display: -webkit-box;
@@ -1341,9 +1395,22 @@ ul, ol {
   font-size: 13px;
   line-height: 17px;
   color: #1966AC;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .footer__email svg {
   margin-right: 13px;
+}
+.footer__email svg path {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.footer__email:hover {
+  color: #1966AC;
+}
+.footer__email:hover svg path {
+  fill: #1966AC;
 }
 
 .footer__phone {
@@ -1357,9 +1424,22 @@ ul, ol {
   font-size: 13px;
   line-height: 17px;
   color: #546371;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .footer__phone svg {
   margin-right: 11px;
+}
+.footer__phone svg path {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.footer__phone:hover {
+  color: #1966AC;
+}
+.footer__phone:hover svg path {
+  fill: #1966AC;
 }
 
 .footer__bottom {
@@ -1381,6 +1461,10 @@ ul, ol {
   display: block;
   letter-spacing: 0.01em;
   color: #AFB7BF;
+}
+.footer__bottom .link:hover {
+  color: #1966AC;
+  text-decoration: underline;
 }
 .footer__bottom img {
   margin-left: 10px;
@@ -1529,6 +1613,11 @@ ul, ol {
   line-height: 20px;
   text-align: center;
   color: #FFFFFF;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.modal__block .btn:hover {
+  background: #4abe14;
 }
 
 @media screen and (max-width: 768px) {
