@@ -2338,9 +2338,19 @@ ul, ol {
             justify-content: flex-start;
   }
   .review__block {
-    margin-right: 10px;
+    margin-right: 50px;
   }
   .review__block:nth-child(2n) {
     margin-right: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .review__block {
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 355px) {
+  .review__block {
+    margin-right: 10px;
   }
 }
