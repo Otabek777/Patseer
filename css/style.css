@@ -1614,18 +1614,17 @@ ul, ol {
 
 @media screen and (max-width: 1899px) {
   .banner__wrap .img {
-    right: 10px;
-    width: 900px;
-    bottom: 50%;
-    -webkit-transform: translateY(50%);
-            transform: translateY(50%);
+      right: 10px;
+      width: 900px;
+      bottom: 50%;
+      transform: translateY(50%);
   }
-}
+} 
 @media screen and (max-width: 1484px) {
   .banner__wrap .img {
-    width: 800px;
+      width: 800px;
   }
-}
+} 
 @media screen and (max-width: 768px) {
   .modal {
     padding: 50px 15px;
